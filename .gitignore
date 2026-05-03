@@ -87,3 +87,6 @@ x86/
 # Local configuration for build
 *.opendb
 *.db
+
+*.vcxproj
+*.vcxproj.filters
