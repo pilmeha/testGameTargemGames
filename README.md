@@ -36,17 +36,11 @@ x - препятствие
 
 \### Windows (MinGW)
 
-g++ -std=c++17 testGameTargemGames.cpp -o maze.exe
+PS C:\\Users\\garma\\source\\repos\\testGameTargemGames> cd .\\testGameTargemGames\\
 
-maze.exe
+PS C:\\Users\\garma\\source\\repos\\testGameTargemGames\\testGameTargemGames> g++ -std=c++17 testGameTargemGames.cpp -o mazeGameTargemGames
 
-
-
-\### Linux / Mac
-
-g++ -std=c++17 testGameTargemGames.cpp -o maze
-
-./maze
+PS C:\\Users\\garma\\source\\repos\\testGameTargemGames\\testGameTargemGames> .\\mazeGameTargemGames.exe
 
 
 
