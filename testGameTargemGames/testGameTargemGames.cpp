@@ -110,9 +110,9 @@ int main() {
 		cout << row << "\n";
 	}
 
-	//// Ожидаем нажатие для завершения программы
-	//std::cout << "Нажмите клавишу...\n";
-	//_getch();
+	// Ожидаем нажатие для завершения программы
+	std::cout << "Press any key to close the program\n";
+	_getch();
 
 	return 0;
 }
