@@ -105,10 +105,20 @@ int main() {
 		cur = p;
 	}
 
-	// Вывод
+	// Открываем output.txt
+	ofstream output("output.txt");
+	if (!output.is_open()) {
+		cout << "Failed to create output.txt\n";
+		return 1;
+	}
+
+	// Вывод в консоль и файл
 	for (const auto& row : grid) {
 		cout << row << "\n";
+		output << row << "\n";
 	}
+
+	output.close();
 
 	// Ожидаем нажатие для завершения программы
 	std::cout << "Press any key to close the program\n";

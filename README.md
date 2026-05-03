@@ -30,17 +30,23 @@ x - препятствие
 
 
 
+\## Выходные данные
+
+Файл output.txt - сохраняем путь
+
+
+
 \## Запуск
 
 
 
 \### Windows (MinGW)
 
-PS C:\\Users\\garma\\source\\repos\\testGameTargemGames> cd .\\testGameTargemGames\\
+cd .\\testGameTargemGames\\
 
-PS C:\\Users\\garma\\source\\repos\\testGameTargemGames\\testGameTargemGames> g++ -std=c++17 testGameTargemGames.cpp -o mazeGameTargemGames
+g++ -std=c++17 main.cpp -o mazeGame
 
-PS C:\\Users\\garma\\source\\repos\\testGameTargemGames\\testGameTargemGames> .\\mazeGameTargemGames.exe
+.\\mazeGame.exe
 
 
 

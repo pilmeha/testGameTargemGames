@@ -2,6 +2,6 @@ S..xx..xxx
 .xxxx..xx.
 ...x..x.x.
 xx.x.xx..x
-xx........
-......xxx.
+x..x......
+..x.x.xxx.
 ......xxxF
